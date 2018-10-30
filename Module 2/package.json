@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "Lab2 for CS546",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhumika_Patoliya_10432870",
+  "license": "ISC"
+}

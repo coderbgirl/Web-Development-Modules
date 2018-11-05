@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-mongodb-lab4",
+  "version": "1.0.0",
+  "description": "Lab4 for CS546",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "^3.1.6",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhumika_Patoliya_10432870",
+  "license": "ISC"
+}

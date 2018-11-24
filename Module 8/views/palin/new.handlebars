@@ -1,0 +1,17 @@
+<article class="new-palin">
+  <h1>{{title}}</h1>
+  <p>A Palindrome is a piece of text that reads the same backward as forward. It can be a word like madam or a sentence
+    like "Was it a car or a cat I saw?". </p>
+  <p>The longest Palindrome in the Oxford dictionary is the
+    word "tattarrattat", which means "A knock on the door", as coined by James Joyce in 1992 in his book Ulysses.</p>
+  <p>This website will help you determine whether your text is a Palindrome or not.
+  </p>
+
+  <form action="/result" method="POST" class="palindrome-input-form">
+    <label>
+      Enter text to check
+      <input type="text" name="text" placeholder="Enter text" value="{{palin.userinput}}" class="form-input" />
+    </label>
+    <button type="submit" class="button">Check text</button>
+  </form>
+</article>
